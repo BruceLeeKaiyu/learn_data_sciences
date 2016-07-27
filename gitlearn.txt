@@ -1,21 +1,42 @@
 Git learn text
-# git init                                     // initial a git resposity
-# git add                                      // add to cache
-# git commit                                   // commit to a version
-# git status                                   // see the status
-# git diff abc.txt                             // see the difference
-# git log --pretty=oneline                     // see the log
-# git reset --hard HEAD^/HEAD~100/36454        // retray version
-# git reflog                                   // see the log
-# git checkout -- shell.txt           // if you edit shell.txt wrongly ,reset it
-# git reset HEAD shell.txt                  //if you add ,you can modify
-# git rm shell.txt            //remove something but can be  recall by git checkout and git reset
-# git push -u origin master                 //push to remote
-# git push origin master                 //push to remote except the first time
-# git clone git@github.com:BruceLeeKaiyu/learngit.git           //copy from remote
-# git checkout -b dev               //a new branch and switch to it
-# git branch dev           // new branch
-# git chechout dev         // switch to a branch
-# git branch              // see all the branch,and the current branch will be marked with *
-# git merge dev            //merge two branch
-# git branch -d dev            //delete a branch
+# git init                                    		        // initial a git resposity
+# git add                                     		        // add to cache
+# git commit                                  		        // commit to a version
+# git status                                  		        // see the status
+# git diff abc.txt                            		        // see the difference
+# git log --pretty=oneline                    		        // see the log
+# git reset --hard HEAD^/HEAD~100/36454       		        // retray version
+# git reflog                                  		        // see the log
+# git checkout -- shell.txt                   		        // if you edit shell.txt wrongly ,reset it
+# git reset HEAD shell.txt                    		        // if you add ,you can modify
+# git rm shell.txt                            		        // remove something but can be  recall by git checkout and git reset
+# git push -u origin master                                     // push to remote
+# git push origin master                                        // push to remote except the first time
+# git clone git@github.com:BruceLeeKaiyu/learngit.git           // copy from remote
+# git checkout -b dev              			        // a new branch and switch to it
+# git branch dev          				        // new branch
+# git chechout dev        				        // switch to a branch
+# git branch             				        // see all the branch,and the current branch will be marked with *
+# git merge dev           				        // merge two branch
+# git branch -d dev           					// delete a branch
+# git log --graph             				        // See the branch graph
+# git merge --no-ff -m merge with no-ff dev			// merge without delete
+# git remote                                                   	// see the remote name
+# git remote -v     					        // see the remote
+# git push origin dev                                           // push to origin dev
+# git checkout -b dev origin/dev                                // clone new branch from origin
+# git stash                      			        // save the status 
+# git stash pop                         		        // pop the workspace
+# git stash list                         		        // pop the workspace
+# git stash apply                        		        // pop the workspace
+# git branch --set-upstream branch-name origin/branch-name      // name your branch to corresponding remote branch
+# git tag v1.0                                                  // a tag
+# git tag v0.9 6224937                                          // tag someone
+# git log --pretty=oneline --abbrev-commit                      // see the log filter by commit
+# git tag -a v0.1 -m "version 0.1 released" 3628164             // a tag with commit
+# git tag                                                       // see the tag
+# git tag -d v0.1                                               // delete a tag
+# git push origin v1.0 						// push a remote tag
+# git push origin -tags                                         // push all of the tags
+# git push origin :refs/tags/v0.9                               // delete in remote
+
