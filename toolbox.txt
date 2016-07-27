@@ -17,7 +17,11 @@
 #(15) csvgrep
 #(16) csvjoin
 #(17) head                 (eg.):head -n 3 data/movies.txt
-#(18) ls 
+#(18) ls
+#(19) curl
+#(20) in2csv
+#(21) sql2csv
+#(22) tar  
 #*-----------------------------------------*
 (1) to use \ or | to continue
 (2) 
