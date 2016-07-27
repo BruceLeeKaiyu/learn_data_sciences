@@ -1,0 +1,25 @@
+# toolbox for data science
+#*-----------------------------------------*
+#(1) alias  定义或显示别名
+#(2) awk 模式扫描和文本处理语言
+#(3) aws
+#(4) Bash
+#(5) bc
+#(6) bigmler
+#(7) body
+#(8) cat
+#(9) cd 
+#(10) chmod
+#(11) cols
+#(12) cowsay
+#(13) cp 
+#(14) csvcut
+#(15) csvgrep
+#(16) csvjoin
+#*-----------------------------------------*
+# virtual box
+# vagrant
+# mkdir MyDataScienceToolBox
+# cd MyDataScienceToolBox
+# vagrant init data-science-toolbox/data-science-at-the-command-line
+# see http://datasciencetollbox.org/ to install more
