@@ -1,1 +1,9 @@
 Git learn text
+# git init                                     // initial a git resposity
+# git add                                      // add to cache
+# git commit                                   // commit to a version
+# git status                                   // see the status
+# git diff abc.txt                             // see the difference
+# git log --pretty=oneline                     // see the log
+# git reset --hard HEAD^/HEAD~100/36454        // retray version
+# git reflog                                   // see the log
