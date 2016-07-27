@@ -17,3 +17,11 @@
 #	3) data viewer
 # - (4) data model
 # - (5) data result(see Max Shron:<thinging with data>)
+
+#------------------------------------------#
+#5 types command line tool
+# (1) binary execute file
+# (2) shell inner command
+# (3) script
+# (4) shell function
+# (5) bieming

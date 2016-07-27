@@ -16,10 +16,8 @@
 #(14) csvcut
 #(15) csvgrep
 #(16) csvjoin
+#(17) head                 (eg.):head -n 3 data/movies.txt
+#(18) ls 
 #*-----------------------------------------*
-# virtual box
-# vagrant
-# mkdir MyDataScienceToolBox
-# cd MyDataScienceToolBox
-# vagrant init data-science-toolbox/data-science-at-the-command-line
-# see http://datasciencetollbox.org/ to install more
+(1) to use \ or | to continue
+(2) 
