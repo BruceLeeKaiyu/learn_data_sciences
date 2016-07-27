@@ -1,0 +1,19 @@
+#------------------------------------------#
+# Data science 5 steps
+# - (1) data getting
+#	1) scrapying
+#	2) downloading
+#	3) generating
+# - (2) data cleaning
+#	1) row filter
+#	2) column extracting
+#	3) value replace
+#	4) word extrating
+#	5) lost value
+#	6) format transfer
+# - (3)	data exploring
+#	1) see data
+#	2) conduct statsitic value
+#	3) data viewer
+# - (4) data model
+# - (5) data result(see Max Shron:<thinging with data>)
