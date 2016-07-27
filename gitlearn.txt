@@ -7,3 +7,15 @@ Git learn text
 # git log --pretty=oneline                     // see the log
 # git reset --hard HEAD^/HEAD~100/36454        // retray version
 # git reflog                                   // see the log
+# git checkout -- shell.txt           // if you edit shell.txt wrongly ,reset it
+# git reset HEAD shell.txt                  //if you add ,you can modify
+# git rm shell.txt            //remove something but can be  recall by git checkout and git reset
+# git push -u origin master                 //push to remote
+# git push origin master                 //push to remote except the first time
+# git clone git@github.com:BruceLeeKaiyu/learngit.git           //copy from remote
+# git checkout -b dev               //a new branch and switch to it
+# git branch dev           // new branch
+# git chechout dev         // switch to a branch
+# git branch              // see all the branch,and the current branch will be marked with *
+# git merge dev            //merge two branch
+# git branch -d dev            //delete a branch
